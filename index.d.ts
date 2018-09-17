@@ -78,6 +78,8 @@ export interface SuperGridSectionListProps<ItemType = any> {
   staticDimension?: number,
   renderSectionHeader?: (info: { section: SectionListData<ItemType> }) => JSX.Element;
   onLayout?: func,
+  showsHorizontalScrollIndicator: boolean,
+  showsVerticalScrollIndicator: boolean
 }
 
 export class SuperGridSectionList<ItemType = any> extends React.Component<
