@@ -190,6 +190,8 @@ SuperGrid.propTypes = {
   staticDimension: PropTypes.number,
   horizontal: PropTypes.bool,
   onLayout: PropTypes.func,
+  showsHorizontalScrollIndicator: boolean,
+  showsVerticalScrollIndicator: boolean
 };
 
 SuperGrid.defaultProps = {
@@ -201,6 +203,8 @@ SuperGrid.defaultProps = {
   itemContainerStyle: undefined,
   staticDimension: undefined,
   horizontal: false,
+  showsHorizontalScrollIndicator: true,
+  showsVerticalScrollIndicator: true
 };
 
 export default SuperGrid;
